@@ -21,3 +21,8 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/dashboard-home', [App\Http\Controllers\Admin\AdminController::class, 'index']);
+
+
+//===========frontend route start===========//
+Route::get('conference-registration',[App\Http\Controllers\frontend\ConferenceRegisterController::class,'conferenceRegistration'])->name('conference-registration');
+//===========frontend route end===========//

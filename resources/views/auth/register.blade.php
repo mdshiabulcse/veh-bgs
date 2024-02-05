@@ -6,7 +6,7 @@
             <div class="position-relative z-index-5">
                 <div class="row">
                     <div class="col-xl-7 col-xxl-8">
-                        <a href="https://doctuch.com"
+                        <a href="https://BGS.com"
                            class="text-nowrap logo-img d-block px-4 py-9 w-100">
                             <img src="{{asset('admin/')}}/assets/images/logos/dark-logo.svg" class="dark-logo"
                                  alt="Logo-Dark"/>
@@ -23,7 +23,7 @@
                         <div
                             class="authentication-login min-vh-100 bg-body row justify-content-center align-items-center p-4">
                             <div class="col-sm-8 col-md-6 col-xl-9">
-                                <h2 class="mb-3 fs-7 fw-bolder">Welcome to DOCTUCH</h2>
+                                <h2 class="mb-3 fs-7 fw-bolder">Welcome to BGS</h2>
                                 <p class=" mb-9">Your Admin Dashboard</p>
                                 <form method="POST" action="{{ route('register') }}">
                                     @csrf

@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{{asset('admin/')}}/assets/css/styles.css" />
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
-    <title>DOCTUCH</title>
+    <title>BGS</title>
 </head>
 <body>
     <div id="app">
